@@ -1,0 +1,15 @@
+print
+add 111 9
+print
+add 222 8
+print
+add 333 7
+print
+add 444 6
+add 555 5
+add 666 4
+add 777 3
+add 888 2
+add 999 1
+print
+run 50

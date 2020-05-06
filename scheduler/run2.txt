@@ -1,0 +1,12 @@
+add 111 1
+add 222 2
+print
+run 1
+print
+run 1
+print
+run 1
+print
+run 1
+print
+

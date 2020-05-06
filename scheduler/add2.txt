@@ -1,0 +1,6 @@
+print
+add 111 1
+print
+add 222 2
+print
+

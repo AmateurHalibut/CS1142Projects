@@ -1,0 +1,8 @@
+add 111 1
+print
+run 1
+print
+run 1
+print
+
+
