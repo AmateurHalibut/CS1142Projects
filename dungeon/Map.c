@@ -62,7 +62,6 @@ bool mapInit(Map* map, const char* filename)
 	
 }
 
-
 /*
 	Uninitializes map and deallocates the memory
 */
@@ -139,8 +138,7 @@ bool mapMoveAvatar(Map* map, Avatar* avatar, Action action)
 					return true;
 				}
 			}
-			return false;
-			
+			return false;	
 			
 		case ActionEast:
 			if(*currCol + 1 >= map->cols) // Bounds check to prevent mem leak
@@ -175,9 +173,7 @@ bool mapMoveAvatar(Map* map, Avatar* avatar, Action action)
 				}
 			}
 			return false;	
-			
-			
-			
+
 		case ActionSouth:
 			if(*currRow + 1 >= map->rows)  // Bounds check to prevent mem leak
 				return false;
@@ -213,9 +209,6 @@ bool mapMoveAvatar(Map* map, Avatar* avatar, Action action)
 			}
 			return false;
 		
-		
-		
-		
 		case ActionWest:
 			if(*currCol - 1 < 0)  // Bounds check to prevent mem leak
 				return false;
@@ -249,18 +242,10 @@ bool mapMoveAvatar(Map* map, Avatar* avatar, Action action)
 				}
 			}
 			return false;
-			
-			
-			
+
 		default:
 			return false;
-		
-		
 	}
-		
-
-	
-	
 }
 
 /*
